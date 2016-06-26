@@ -12,15 +12,11 @@
 		1F4140AB1D1746A300C2909B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4140A91D1746A300C2909B /* Main.storyboard */; };
 		1F4140AE1D1746A300C2909B /* ios_dev.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F4140AC1D1746A300C2909B /* ios_dev.xcdatamodeld */; };
 		1F4140B01D1746A300C2909B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4140AF1D1746A300C2909B /* Assets.xcassets */; };
-		1F4140B31D1746A300C2909B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4140B11D1746A300C2909B /* LaunchScreen.storyboard */; };
 		1F4140BE1D1746A300C2909B /* ios_devTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4140BD1D1746A300C2909B /* ios_devTests.swift */; };
 		1F4140C91D1746A300C2909B /* ios_devUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4140C81D1746A300C2909B /* ios_devUITests.swift */; };
 		1F4140D71D17503000C2909B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F4140D61D17503000C2909B /* GoogleService-Info.plist */; };
 		1F4140D81D17504200C2909B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F4140D61D17503000C2909B /* GoogleService-Info.plist */; };
 		1F4140D91D17504200C2909B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F4140D61D17503000C2909B /* GoogleService-Info.plist */; };
-		8D8917EF35C3E18EEA20087C /* Pods_ios_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECCE8425F256F47B16CC4F3 /* Pods_ios_dev.framework */; };
-		DA79F7A0528E09FA2D33A04D /* Pods_ios_devTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5236E91D66591CA3BD1A3F9E /* Pods_ios_devTests.framework */; };
-		F31520FF7F8202FFB9656D73 /* Pods_ios_devUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF11DAF6100B374245FDC4E1 /* Pods_ios_devUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +44,6 @@
 		1F4140AA1D1746A300C2909B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F4140AD1D1746A300C2909B /* ios_dev.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ios_dev.xcdatamodel; sourceTree = "<group>"; };
 		1F4140AF1D1746A300C2909B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F4140B21D1746A300C2909B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F4140B41D1746A300C2909B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F4140B91D1746A300C2909B /* ios-devTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-devTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4140BD1D1746A300C2909B /* ios_devTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_devTests.swift; sourceTree = "<group>"; };
@@ -56,15 +51,13 @@
 		1F4140C41D1746A300C2909B /* ios-devUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-devUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4140C81D1746A300C2909B /* ios_devUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_devUITests.swift; sourceTree = "<group>"; };
 		1F4140CA1D1746A300C2909B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F4140D61D17503000C2909B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1F4140D61D17503000C2909B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1FFDBCF21D178EDB00F0B6DB /* ios-dev-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-dev-Bridging-Header.h"; sourceTree = "<group>"; };
 		325EB722C1A239155B48B2D0 /* Pods-ios-devTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-devTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-devTests/Pods-ios-devTests.debug.xcconfig"; sourceTree = "<group>"; };
 		47B68F6C2007870105992352 /* Pods-ios-devUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-devUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-devUITests/Pods-ios-devUITests.release.xcconfig"; sourceTree = "<group>"; };
-		5236E91D66591CA3BD1A3F9E /* Pods_ios_devTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_devTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		653FBC1F7E200576AD04B953 /* Pods-ios-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-dev/Pods-ios-dev.release.xcconfig"; sourceTree = "<group>"; };
 		6B05A7DFDBA9AE72EF389952 /* Pods-ios-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-dev/Pods-ios-dev.debug.xcconfig"; sourceTree = "<group>"; };
 		87182EB31EE0D04AA1050BCB /* Pods-ios-devUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-devUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-devUITests/Pods-ios-devUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8ECCE8425F256F47B16CC4F3 /* Pods_ios_dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF11DAF6100B374245FDC4E1 /* Pods_ios_devUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_devUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D8917EF35C3E18EEA20087C /* Pods_ios_dev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA79F7A0528E09FA2D33A04D /* Pods_ios_devTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F31520FF7F8202FFB9656D73 /* Pods_ios_devUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,13 +88,11 @@
 		1F4140991D1746A300C2909B = {
 			isa = PBXGroup;
 			children = (
-				1F4140D61D17503000C2909B /* GoogleService-Info.plist */,
 				1F4140A41D1746A300C2909B /* ios-dev */,
 				1F4140BC1D1746A300C2909B /* ios-devTests */,
 				1F4140C71D1746A300C2909B /* ios-devUITests */,
 				1F4140A31D1746A300C2909B /* Products */,
 				99255005BC267F62D1FE248C /* Pods */,
-				494CD4D5B96490FEE633CE28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,13 +109,13 @@
 		1F4140A41D1746A300C2909B /* ios-dev */ = {
 			isa = PBXGroup;
 			children = (
+				1FFDBCF51D18F7D800F0B6DB /* Supporting Files */,
 				1F4140A51D1746A300C2909B /* AppDelegate.swift */,
 				1F4140A71D1746A300C2909B /* ViewController.swift */,
 				1F4140A91D1746A300C2909B /* Main.storyboard */,
 				1F4140AF1D1746A300C2909B /* Assets.xcassets */,
-				1F4140B11D1746A300C2909B /* LaunchScreen.storyboard */,
-				1F4140B41D1746A300C2909B /* Info.plist */,
 				1F4140AC1D1746A300C2909B /* ios_dev.xcdatamodeld */,
+				1FFDBCF21D178EDB00F0B6DB /* ios-dev-Bridging-Header.h */,
 			);
 			path = "ios-dev";
 			sourceTree = "<group>";
@@ -150,14 +138,13 @@
 			path = "ios-devUITests";
 			sourceTree = "<group>";
 		};
-		494CD4D5B96490FEE633CE28 /* Frameworks */ = {
+		1FFDBCF51D18F7D800F0B6DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8ECCE8425F256F47B16CC4F3 /* Pods_ios_dev.framework */,
-				5236E91D66591CA3BD1A3F9E /* Pods_ios_devTests.framework */,
-				AF11DAF6100B374245FDC4E1 /* Pods_ios_devUITests.framework */,
+				1F4140D61D17503000C2909B /* GoogleService-Info.plist */,
+				1F4140B41D1746A300C2909B /* Info.plist */,
 			);
-			name = Frameworks;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		99255005BC267F62D1FE248C /* Pods */ = {
@@ -285,7 +272,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F4140B31D1746A300C2909B /* LaunchScreen.storyboard in Resources */,
 				1F4140D71D17503000C2909B /* GoogleService-Info.plist in Resources */,
 				1F4140B01D1746A300C2909B /* Assets.xcassets in Resources */,
 				1F4140AB1D1746A300C2909B /* Main.storyboard in Resources */,
@@ -484,14 +470,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1F4140B11D1746A300C2909B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F4140B21D1746A300C2909B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -585,10 +563,13 @@
 			baseConfigurationReference = 6B05A7DFDBA9AE72EF389952 /* Pods-ios-dev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "ios-dev/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dev-group.ios-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-dev/ios-dev-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -597,10 +578,12 @@
 			baseConfigurationReference = 653FBC1F7E200576AD04B953 /* Pods-ios-dev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "ios-dev/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dev-group.ios-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-dev/ios-dev-Bridging-Header.h";
 			};
 			name = Release;
 		};
