@@ -73,9 +73,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
           print("Wow! Our user signed in! \(user)")
         }
         
-        
-        
-        
 //        if (error == nil) {
             // Perform any operations on signed in user here.
 //            let userId = user.userID                  // For client-side use only!
@@ -99,7 +96,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 //        }
     }
 
-    
 //    // Google Sign-in: Actions to perform when user disconnects with app - conforms to GIDSignInDelegate protocol
 //    // [START disconnect_handler]
 //    func signIn(signIn: GIDSignIn!, didDisconnectWithUser user:GIDGoogleUser!,
