@@ -4,6 +4,9 @@
 # Cocoa Pods
 /Pods
 
+# Google Sign-in Plist
+GoogleService-Info.plist
+
 ### Xcode ###
 # Xcode
 #

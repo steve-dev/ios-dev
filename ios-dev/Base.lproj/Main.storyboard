@@ -59,7 +59,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQ6-sL-7cf">
-                                <rect key="frame" x="20" y="98" width="46" height="21"/>
+                                <rect key="frame" x="20" y="98" width="560" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -70,7 +70,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6J-xs-U8l">
-                                <rect key="frame" x="20" y="183" width="79" height="21"/>
+                                <rect key="frame" x="20" y="183" width="560" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -124,13 +124,14 @@
                             <constraint firstAttribute="trailingMargin" secondItem="upS-i3-CkR" secondAttribute="trailing" id="9Zu-7L-r6Q"/>
                             <constraint firstItem="v5F-FD-7xd" firstAttribute="top" secondItem="s1t-tP-6PP" secondAttribute="bottom" constant="13" id="AFZ-lB-1fn"/>
                             <constraint firstAttribute="leadingMargin" secondItem="gaG-eo-GRh" secondAttribute="leading" id="Ago-WH-06z"/>
-                            <constraint firstItem="gaG-eo-GRh" firstAttribute="top" secondItem="LQ6-sL-7cf" secondAttribute="bottom" constant="8" id="CFb-7F-NaD"/>
                             <constraint firstItem="k6J-xs-U8l" firstAttribute="top" secondItem="gaG-eo-GRh" secondAttribute="bottom" constant="26" id="FBQ-dv-ZDi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="k6J-xs-U8l" secondAttribute="trailing" id="GZr-Dy-NUd"/>
                             <constraint firstItem="bUw-Ux-G4T" firstAttribute="top" secondItem="k6J-xs-U8l" secondAttribute="bottom" constant="8" id="Ho8-eU-zLm"/>
                             <constraint firstItem="CKh-ZQ-7gw" firstAttribute="top" secondItem="uwP-wV-xAa" secondAttribute="bottom" constant="23" id="HsG-4b-QjV"/>
                             <constraint firstItem="gaG-eo-GRh" firstAttribute="leading" secondItem="k6J-xs-U8l" secondAttribute="trailing" constant="-79" id="J74-Py-hm4"/>
                             <constraint firstAttribute="leadingMargin" secondItem="k6J-xs-U8l" secondAttribute="leading" id="JHo-Gy-kjt"/>
                             <constraint firstItem="s1t-tP-6PP" firstAttribute="top" secondItem="bUw-Ux-G4T" secondAttribute="bottom" constant="43" id="JfY-Je-slJ"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="k6J-xs-U8l" secondAttribute="leading" id="OOK-Ro-BMv"/>
                             <constraint firstItem="uwP-wV-xAa" firstAttribute="top" secondItem="v5F-FD-7xd" secondAttribute="bottom" constant="8" symbolic="YES" id="OnK-BS-kV5"/>
                             <constraint firstItem="CKh-ZQ-7gw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P23-st-5Ad"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LQ6-sL-7cf" secondAttribute="trailing" constant="514" id="P7d-Hm-p1e"/>
@@ -139,19 +140,22 @@
                             <constraint firstAttribute="trailingMargin" secondItem="v5F-FD-7xd" secondAttribute="trailing" id="UEZ-2e-qvz"/>
                             <constraint firstItem="v5F-FD-7xd" firstAttribute="leading" secondItem="bUw-Ux-G4T" secondAttribute="leading" id="Uqe-2A-TFB"/>
                             <constraint firstAttribute="leadingMargin" secondItem="v5F-FD-7xd" secondAttribute="leading" id="Urv-Se-46U"/>
+                            <constraint firstItem="LQ6-sL-7cf" firstAttribute="leading" secondItem="gaG-eo-GRh" secondAttribute="leading" id="YtX-7X-d6K"/>
                             <constraint firstItem="CKh-ZQ-7gw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="240" id="aFO-h8-EAo"/>
                             <constraint firstItem="uwP-wV-xAa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cbR-RM-5cf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gaG-eo-GRh" secondAttribute="trailing" id="cuC-G4-loO"/>
                             <constraint firstAttribute="trailingMargin" secondItem="k6J-xs-U8l" secondAttribute="trailing" constant="481" id="d3J-Tm-aRI"/>
                             <constraint firstItem="uwP-wV-xAa" firstAttribute="top" secondItem="v5F-FD-7xd" secondAttribute="bottom" constant="8" id="gJC-II-jNg"/>
                             <constraint firstItem="v5F-FD-7xd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jBN-06-o4R"/>
+                            <constraint firstItem="LQ6-sL-7cf" firstAttribute="trailing" secondItem="gaG-eo-GRh" secondAttribute="trailing" id="kaw-Np-jqy"/>
                             <constraint firstItem="v5F-FD-7xd" firstAttribute="top" secondItem="s1t-tP-6PP" secondAttribute="bottom" constant="13" id="kh0-Ze-3Lp"/>
                             <constraint firstItem="s1t-tP-6PP" firstAttribute="top" secondItem="bUw-Ux-G4T" secondAttribute="bottom" constant="43" id="mMT-Ju-uBw"/>
                             <constraint firstAttribute="leadingMargin" secondItem="bUw-Ux-G4T" secondAttribute="leading" id="mqP-SL-Qvw"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="CKh-ZQ-7gw" secondAttribute="bottom" constant="152" id="nX5-Re-soI"/>
                             <constraint firstItem="CKh-ZQ-7gw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="413" id="ohB-gV-MJo"/>
                             <constraint firstItem="v5F-FD-7xd" firstAttribute="trailing" secondItem="bUw-Ux-G4T" secondAttribute="trailing" id="paO-Qh-pS2"/>
-                            <constraint firstItem="LQ6-sL-7cf" firstAttribute="top" secondItem="upS-i3-CkR" secondAttribute="bottom" constant="42" id="rcE-I1-wFr"/>
+                            <constraint firstItem="gaG-eo-GRh" firstAttribute="top" secondItem="LQ6-sL-7cf" secondAttribute="bottom" constant="8" symbolic="YES" id="tLW-Fu-udC"/>
+                            <constraint firstItem="LQ6-sL-7cf" firstAttribute="top" secondItem="upS-i3-CkR" secondAttribute="bottom" constant="42" id="wIR-Mg-CYR"/>
                             <constraint firstItem="bUw-Ux-G4T" firstAttribute="top" secondItem="k6J-xs-U8l" secondAttribute="bottom" constant="8" id="wOA-Sh-DxQ"/>
                             <constraint firstItem="CKh-ZQ-7gw" firstAttribute="top" secondItem="uwP-wV-xAa" secondAttribute="bottom" constant="23" id="yay-Bd-Teb"/>
                             <constraint firstItem="s1t-tP-6PP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ydB-zW-mki"/>
@@ -160,7 +164,11 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="P7d-Hm-p1e"/>
+                                <exclude reference="S5q-fr-pAD"/>
                                 <exclude reference="J74-Py-hm4"/>
+                                <exclude reference="JHo-Gy-kjt"/>
+                                <exclude reference="d3J-Tm-aRI"/>
                                 <exclude reference="Ho8-eU-zLm"/>
                                 <exclude reference="wOA-Sh-DxQ"/>
                                 <exclude reference="Uqe-2A-TFB"/>
@@ -195,12 +203,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYH-GS-UfN">
-                                <rect key="frame" x="20" y="109" width="560" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cuf-LN-cIJ">
                                 <rect key="frame" x="20" y="192" width="79" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -239,6 +241,12 @@
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register Page" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQR-va-fQJ">
                                 <rect key="frame" x="20" y="65" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYH-GS-UfN">
+                                <rect key="frame" x="20" y="109" width="560" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
