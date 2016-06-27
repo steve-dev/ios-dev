@@ -17,6 +17,7 @@
 		1F4140D71D17503000C2909B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F4140D61D17503000C2909B /* GoogleService-Info.plist */; };
 		1F4140D81D17504200C2909B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F4140D61D17503000C2909B /* GoogleService-Info.plist */; };
 		1F4140D91D17504200C2909B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F4140D61D17503000C2909B /* GoogleService-Info.plist */; };
+		1F558C821D20BC65005E9259 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F558C811D20BC65005E9259 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		1F4140C81D1746A300C2909B /* ios_devUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_devUITests.swift; sourceTree = "<group>"; };
 		1F4140CA1D1746A300C2909B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F4140D61D17503000C2909B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1F558C811D20BC65005E9259 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1FFDBCF21D178EDB00F0B6DB /* ios-dev-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-dev-Bridging-Header.h"; sourceTree = "<group>"; };
 		325EB722C1A239155B48B2D0 /* Pods-ios-devTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-devTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-devTests/Pods-ios-devTests.debug.xcconfig"; sourceTree = "<group>"; };
 		47B68F6C2007870105992352 /* Pods-ios-devUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-devUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-devUITests/Pods-ios-devUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				1FFDBCF51D18F7D800F0B6DB /* Supporting Files */,
 				1F4140A51D1746A300C2909B /* AppDelegate.swift */,
 				1F4140A71D1746A300C2909B /* ViewController.swift */,
+				1F558C811D20BC65005E9259 /* LoginViewController.swift */,
 				1F4140A91D1746A300C2909B /* Main.storyboard */,
 				1F4140AF1D1746A300C2909B /* Assets.xcassets */,
 				1F4140AC1D1746A300C2909B /* ios_dev.xcdatamodeld */,
@@ -424,6 +427,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F558C821D20BC65005E9259 /* LoginViewController.swift in Sources */,
 				1F4140AE1D1746A300C2909B /* ios_dev.xcdatamodeld in Sources */,
 				1F4140A81D1746A300C2909B /* ViewController.swift in Sources */,
 				1F4140A61D1746A300C2909B /* AppDelegate.swift in Sources */,
